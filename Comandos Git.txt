@@ -26,7 +26,8 @@ Subir arquivos para o servidor	git push 'nome do servidor' branche
 		#################################
 Entra no githib e cria o repositório:
  Add o endereço do repositório 	git remote add origin https://github.com/W4nd3v/login-forms-alerts-in-django.git
-Enviar p/ repositório no Github	git push origin(nome do rep.) branch(master)			
+Enviar p/ repositório no Github	git push origin(nome do rep.) branch(master)	
+		   Para excluir	git rm arquivo		
 
 		#################################
 		#	    PC REMOTO		#
