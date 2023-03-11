@@ -1,0 +1,45 @@
+		#################################
+		#	      LOCAL		#
+		#################################
+       Criar repositório local	git init
+	        Adicionar Nome	git config -- local(global) user.name "nome"
+	       Adicionar Email	git config --local user.email "email"
+	    Adicionar arquivos	git add . (. ou só nome do arquivo)
+	      Comitar arquivos	git commit -m "comentário do commit"git 
+       Ver mudanças no arquivo	git log (-p oneline)
+	      Ignorar arquivos	criar arquivo .gitignore
+     Adionar o servidor remoto	git remote add 'nome do servidor' {caminho}
+     Listar repositório remoto	git remote
+Subir arquivos para o servidor	git push 'nome do servidor' branche
+
+		#################################
+		#	     SERVIDOR		#
+		#################################
+	[LOCAL]CAMINHO: C:/Users/Wanderson/Documents/ALURA/Servidor/
+	[ORGIN]https://github.com/W4nd3v/curso-alura-git.git
+		Criar servidor	git init --bare
+	       Puxar do github	git pull origin main
+	      Levar pro github	git push origin main
+
+		#################################
+		#	    GIT HUB		#
+		#################################
+Entra no githib e cria o repositório:
+ Add o endereço do repositório 	git remote add origin https://github.com/W4nd3v/login-forms-alerts-in-django.git
+Enviar p/ repositório no Github	git push origin(nome do rep.) branch(master)			
+
+		#################################
+		#	    PC REMOTO		#
+		#################################
+Clonar/Baixar arq. do servidor	git clone {caminho} "novo_nome_opcional"
+	   Renomear git remote	git rename origin local
+   Baixar arquivos do servidor	git pull "nome git remote" branch
+
+		################################# [OBS: FALTA PRATICAR]
+		#	    BRANCH		#
+		#################################
+	       Mostrar branchs	git banch
+		  Criar branch	git branch "nome_da_branch"
+	       Mudar de branch	git checkout "nome_da_branch"
+		   Unir branch	git merge "nome_da_branch"
+ Unir branch/continua na linha	git rebase "nome_da_branch/linha"
